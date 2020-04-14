@@ -12,7 +12,7 @@ function reverseStr(str) {
 }
 
 // using for loop
-function reverseSt(str) {
+function reverseStr(str) {
     let reversed = '';
     for (let i = 0; i < str.length; i++) {
         reversed = str[i] + reversed;
@@ -21,7 +21,7 @@ function reverseSt(str) {
 }
 
 // using for..of loop
-function reverseS(str) {
+function reverseStr(str) {
     let reversed = '';
     for (let char of str) {
         reversed = char + reversed;

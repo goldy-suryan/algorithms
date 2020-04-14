@@ -1,10 +1,10 @@
 function fizzBuzz(arr) {
     for (let item of arr) {
-        if (item % 5 == 0) {
+        if (item % 3 == 0 && item % 5 == 0) {
             console.log('fizzBuzz');
-        } else if (item % 2 == 0) {
-            console.log('fizz')
         } else if (item % 3 == 0) {
+            console.log('fizz')
+        } else if (item % 5 == 0) {
             console.log('Buzz')
         } else {
             console.log(item);

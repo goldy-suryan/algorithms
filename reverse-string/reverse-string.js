@@ -28,4 +28,3 @@ function reverseS(str) {
     }
     return reversed;
 }
-console.log(reverseS('goldy'));

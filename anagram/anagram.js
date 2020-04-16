@@ -30,5 +30,3 @@ function anagram(str1, str2) {
     return str1.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('') ==
         str2.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
 }
-
-console.log(anagram('goldy', 'ydolg'));
